@@ -1,0 +1,24 @@
+# Site settings
+title: Web Design Portfolio
+email: edwinchen85@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Freelance web designer and developer, specialised in Jekyll, HTML, CSS and JavaScript.
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: edwinchen85
+github_username:  edwinchen85
+
+permalink: /:categories/:title
+
+links:
+  - title: about
+    url: about
+  - title: project
+    url: project
+  - title: article
+    url: article
+  - title: contact
+    url: contact
+
+# Build settings
+markdown: kramdown
